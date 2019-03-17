@@ -1,0 +1,233 @@
+*,p, h3, h1{
+    padding: 0;
+    margin: 0;
+}
+
+/* ------------------------------------- Header ------------------------------------- */
+header{
+    background-color: #0a312f;
+    height: 108px;
+}
+
+.d-flex{
+    width: 100%;
+}
+header .h-left{
+    width: 108px;
+    height: 108px;
+    background-color: #fbab18;
+    border-right: 3px solid #ffffff;
+}
+
+header h3{
+    font-family: LucidaGrande;
+    width: 1224px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.h-right{
+    width: 108px;
+    height: 108px;
+    border-left: 3px solid #ffffff;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0 14px 0;
+}
+
+.h-right p{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    opacity: 0.5;
+    font-family: OpenSans;
+    padding-top: 7px;
+}
+
+.h-right img{
+    width: 44px;
+}
+
+.container-vinpreal{
+    width: auto;
+}
+
+/* ------------------------------------- Main ------------------------------------- */
+main{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #194341;
+}
+
+.slick-slider{
+    margin: 116px 0 46px 0;
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+    background-color: red;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.wrap_item{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: green;
+    display: -webkit-box;
+}
+
+.border-frame{
+    width:150px;
+    height: 200px;
+    margin: 0 40px 0 33px;
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+    background-color: #5bc3bf;
+    /* box-shadow: 0 0 0 5px #ffffff; */
+}
+
+.border-frame h1{
+    font-family: Arial;
+    font-size: 90px;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 15.4px;
+}
+
+.border-frame h3 {
+    font-family: SVN-Rajdhani;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 3px;
+}
+.item{
+    width:150px;
+    height: 200px;
+    margin-right: 40px;
+    border: 5px solid #5bc3bf;
+    border-radius: 5px;
+    /* box-shadow: 0 0 0 5px #5bc3bf; */
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pax-num{
+    width: 150px;
+    height: 200px;
+    background-color: #5bc3bf;
+    border-radius: 2px;
+    box-shadow: 0 0 0 5px #ffffff;
+}
+
+.pax-img{
+    width: 150px;
+    height: 200px;
+    border-radius: 2px;
+    box-shadow: 0 0 0 5px #5bc3bf;
+}
+
+.pax-num h1{
+    font-family: Arial;
+    font-size: 90px;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 15.4px;
+}
+
+.pax-num h3 {
+    font-family: SVN-Rajdhani;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 3px;
+}
+.pax{
+    width: 150px;
+    height: 200px;
+}
+
+.icon-drag{
+    padding-bottom: 33px;
+}
+
+.icon-drag p{
+    color: #ffffff;
+    opacity: 0.5;
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    padding-top: 13px;    
+    line-height: 1.2;
+}
+
+.wrap{
+    width: auto;
+    height: 200px;
+}
+a:hover{
+    text-decoration: none;
+}
+/* ------------------------------------- Bottom ------------------------------------- */
+.bottom{
+    background-color: #0a312f;
+    height: 260px
+}
+.bottom a:hover{
+    text-decoration: none;
+}
+.camera{
+    width: 260px;
+    height: 125px;
+    background-color: #5aa308;
+    box-shadow: 0 0 0 5px #ffffff;
+    border-radius: 2px;
+}
+
+.camera h3{
+    padding: 37px 0 30px 28px;
+    font-family: LucidaGrande;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.camera .img{
+    padding: 38px 28px 44.8px 0;
+}
+
+.mr-67{
+    margin-right: 67px;
+}
+.p-bottom{
+    padding: 75px 10px 80px 100px;
+
+}
+.red{
+    background-color: #d0021b;
+}
+
+.blue{
+    background-color: #2a5aed;
+}
+
+.yellow{
+    background-color: #fbab18;
+}
